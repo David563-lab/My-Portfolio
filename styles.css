@@ -452,6 +452,62 @@ ul {
   color: var(--accent);
 }
 
+/* ===== Certificates ===== */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.cert-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: border-color var(--transition), transform 0.2s ease;
+}
+
+.cert-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.cert-issuer {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.cert-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
+}
+
+.cert-date {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.cert-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.cert-note {
+  margin-top: 1.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+
 /* ===== Education ===== */
 .education-grid {
   display: grid;
