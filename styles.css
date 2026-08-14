@@ -454,8 +454,8 @@ ul {
 
 /* ===== Certificates ===== */
 .certificates-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -466,7 +466,9 @@ ul {
   padding: 1rem;
   box-shadow: var(--shadow);
   transition: border-color var(--transition), transform 0.2s ease;
-  max-width: 220px;
+  display: inline-block;
+  width: auto;
+  height: auto;
 }
 
 .cert-card:hover {
