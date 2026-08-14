@@ -507,6 +507,18 @@ ul {
   font-style: italic;
 }
 
+.cert-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  min-height: 300px;
+}
+
+.cert-badge > div {
+  margin: 0 auto;
+}
+
 /* ===== Education ===== */
 .education-grid {
   display: grid;
