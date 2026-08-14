@@ -463,9 +463,10 @@ ul {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.5rem;
+  padding: 1rem;
   box-shadow: var(--shadow);
   transition: border-color var(--transition), transform 0.2s ease;
+  max-width: 220px;
 }
 
 .cert-card:hover {
