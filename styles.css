@@ -512,10 +512,16 @@ ul {
 
 .cert-badge {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   min-height: 300px;
+  text-align: center;
+}
+.cert-badge h3 {
+  margin-top: 15px;
+  font-size: 1.1rem;
 }
 
 .cert-badge > div {
